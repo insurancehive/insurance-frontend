@@ -3,6 +3,6 @@ apiVersion: 1.0.0
 previews:
   - name: insurance-frontend
     container:
-      image: gcr.io/core-flow-research/insurancehive/insurance-frontend:${{env.commit.sha}}
+      image: gcr.io/core-flow-research/insurancehive/insurance-frontend:latest
       ports:
       - value: 80
