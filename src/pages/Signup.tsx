@@ -6,11 +6,7 @@ import { flags } from "../lib/flags"
 const Login = () => {
   return (
     <div>
-      {flags.newQuotePage.isEnabled() ? (
-        <NewRegistrationForm />
-      ) : (
-        <OldRegistrationForm />
-      )}
+      <OldRegistrationForm />
     </div>
   )
 }
